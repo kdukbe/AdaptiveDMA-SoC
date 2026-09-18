@@ -1,0 +1,13 @@
+run all
+LEVEL: reached L0 after 8 samples
+LEVEL: reached L3 after 9 samples
+LEVEL: reached L0 after 9 samples
+LEVEL: reached L3 after 9 samples
+LEVEL: reached L0 after 9 samples
+LEVEL: reached L3 after 9 samples
+LEVEL: reached L0 after 9 samples
+LEVEL: reached L3 after 9 samples
+LEVEL: reached L0 after 9 samples
+SUMMARY: rbr=1111 wait=1 errors=0
+PASS: Adaptive DMA integration test complete
+$finish called at time : 1159310 ns : File "sim/system/tb_adaptive_dma.sv" Line 348

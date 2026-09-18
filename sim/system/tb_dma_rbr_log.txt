@@ -1,0 +1,5 @@
+run all
+COVERAGE: all required burst/outstanding/RBR/size/4KB/backpressure/runtime-disable bins observed
+SUMMARY: tests=35 errors=0 assertions=0
+PASS: SystemVerilog DMA/RBR regression complete
+$finish called at time : 177821 ns : File "sim/system/tb_dma_rbr.sv" Line 199

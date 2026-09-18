@@ -1,0 +1,10 @@
+run 1 us
+CONTINUOUS PASS: bytes=32 copy_cycles=4
+GAP PASS: bytes=32 copy_cycles=7
+PARTIAL PASS: bytes=10 copy_cycles=3
+OVERSHOOT PASS: bytes=16 threshold=10 copy_cycles=3
+THRESHOLD HOLD PASS: active threshold=24 copy_cycles=3
+BACKPRESSURE PASS: bytes=16 copy_cycles=4
+REPEAT PASS: two measurements completed
+PASS: tb_monitor
+$finish called at time : 690 ns : File "sim/monitor/tb_monitor.v" Line 309

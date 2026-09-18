@@ -1,0 +1,6 @@
+run 1 us
+COUNT PASS: stalls=3/2/1/3/4 txns=2/1
+INACTIVE HOLD PASS
+CLEAR PASS
+PASS: tb_counters
+$finish called at time : 246 ns : File "sim/counters/tb_counters.v" Line 202

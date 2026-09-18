@@ -1,0 +1,14 @@
+run 4 us
+THROTTLE PASS: nominal=32 copy=32 delta_q8=256 idle=32
+THROTTLE PASS: nominal=32 copy=36 delta_q8=256 idle=28
+THROTTLE PASS: nominal=32 copy=64 delta_q8=256 idle=0
+THROTTLE PASS: nominal=32 copy=30 delta_q8=256 idle=34
+THROTTLE PASS: nominal=32 copy=34 delta_q8=128 idle=14
+THROTTLE PASS: nominal=32 copy=32 delta_q8=10 idle=2
+THROTTLE PASS: nominal=32 copy=32 delta_q8=597 idle=75
+THROTTLE PASS: nominal=32 copy=32 delta_q8=256 idle=32
+THROTTLE PASS: nominal=64 copy=64 delta_q8=256 idle=64
+DISABLE PASS: allow=1
+RESET PASS: WAIT released
+PASS: tb_throttler
+$finish called at time : 3080 ns : File "sim/throttler/tb_throttler.v" Line 222

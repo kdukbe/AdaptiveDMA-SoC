@@ -1,0 +1,48 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="980" height="650" viewBox="0 0 980 650">
+<rect width="100%" height="100%" fill="#FFFFFF"/>
+<text x="490.0" y="34.0" text-anchor="middle" font-family="Arial" font-size="21" font-weight="bold" fill="#111827">DMA throughput versus latency-limit violations</text>
+<line x1="95.0" y1="65" x2="95.0" y2="565" stroke="#E5E7EB"/>
+<text x="95.0" y="590.0" text-anchor="middle" font-family="Arial" font-size="12" fill="#374151">0</text>
+<line x1="253.1" y1="65" x2="253.1" y2="565" stroke="#E5E7EB"/>
+<text x="253.1" y="590.0" text-anchor="middle" font-family="Arial" font-size="12" fill="#374151">20</text>
+<line x1="411.2" y1="65" x2="411.2" y2="565" stroke="#E5E7EB"/>
+<text x="411.2" y="590.0" text-anchor="middle" font-family="Arial" font-size="12" fill="#374151">40</text>
+<line x1="569.3" y1="65" x2="569.3" y2="565" stroke="#E5E7EB"/>
+<text x="569.3" y="590.0" text-anchor="middle" font-family="Arial" font-size="12" fill="#374151">60</text>
+<line x1="727.4" y1="65" x2="727.4" y2="565" stroke="#E5E7EB"/>
+<text x="727.4" y="590.0" text-anchor="middle" font-family="Arial" font-size="12" fill="#374151">80</text>
+<line x1="885.5" y1="65" x2="885.5" y2="565" stroke="#E5E7EB"/>
+<text x="885.5" y="590.0" text-anchor="middle" font-family="Arial" font-size="12" fill="#374151">100</text>
+<line x1="95" y1="565.0" x2="925" y2="565.0" stroke="#E5E7EB"/>
+<text x="83.0" y="569.0" text-anchor="end" font-family="Arial" font-size="12" fill="#374151">300</text>
+<line x1="95" y1="493.6" x2="925" y2="493.6" stroke="#E5E7EB"/>
+<text x="83.0" y="497.6" text-anchor="end" font-family="Arial" font-size="12" fill="#374151">360</text>
+<line x1="95" y1="422.1" x2="925" y2="422.1" stroke="#E5E7EB"/>
+<text x="83.0" y="426.1" text-anchor="end" font-family="Arial" font-size="12" fill="#374151">420</text>
+<line x1="95" y1="350.7" x2="925" y2="350.7" stroke="#E5E7EB"/>
+<text x="83.0" y="354.7" text-anchor="end" font-family="Arial" font-size="12" fill="#374151">480</text>
+<line x1="95" y1="279.3" x2="925" y2="279.3" stroke="#E5E7EB"/>
+<text x="83.0" y="283.3" text-anchor="end" font-family="Arial" font-size="12" fill="#374151">540</text>
+<line x1="95" y1="207.9" x2="925" y2="207.9" stroke="#E5E7EB"/>
+<text x="83.0" y="211.9" text-anchor="end" font-family="Arial" font-size="12" fill="#374151">600</text>
+<line x1="95" y1="136.4" x2="925" y2="136.4" stroke="#E5E7EB"/>
+<text x="83.0" y="140.4" text-anchor="end" font-family="Arial" font-size="12" fill="#374151">660</text>
+<line x1="95" y1="65.0" x2="925" y2="65.0" stroke="#E5E7EB"/>
+<text x="83.0" y="69.0" text-anchor="end" font-family="Arial" font-size="12" fill="#374151">720</text>
+<circle cx="885.5" cy="110.8" r="9" fill="#DC2626" stroke="#FFFFFF" stroke-width="2"/>
+<text x="873.5" y="98.8" text-anchor="end" font-family="Arial" font-size="12" font-weight="bold" fill="#111827">FIXED_MAX</text>
+<circle cx="490.2" cy="255.3" r="9" fill="#F59E0B" stroke="#FFFFFF" stroke-width="2"/>
+<text x="502.2" y="243.3" text-anchor="start" font-family="Arial" font-size="12" font-weight="bold" fill="#111827">STATIC_B8</text>
+<circle cx="95.0" cy="468.0" r="9" fill="#0284C7" stroke="#FFFFFF" stroke-width="2"/>
+<text x="107.0" y="456.0" text-anchor="start" font-family="Arial" font-size="12" font-weight="bold" fill="#111827">RBR_50</text>
+<circle cx="490.2" cy="317.9" r="9" fill="#0891B2" stroke="#FFFFFF" stroke-width="2"/>
+<text x="502.2" y="305.9" text-anchor="start" font-family="Arial" font-size="12" font-weight="bold" fill="#111827">RBR_67</text>
+<circle cx="885.5" cy="204.1" r="9" fill="#7C3AED" stroke="#FFFFFF" stroke-width="2"/>
+<text x="873.5" y="192.1" text-anchor="end" font-family="Arial" font-size="12" font-weight="bold" fill="#111827">RBR_80</text>
+<circle cx="268.9" cy="326.9" r="9" fill="#F97316" stroke="#FFFFFF" stroke-width="2"/>
+<text x="280.9" y="314.9" text-anchor="start" font-family="Arial" font-size="12" font-weight="bold" fill="#111827">BURST_ADAPT</text>
+<circle cx="126.6" cy="399.0" r="9" fill="#059669" stroke="#FFFFFF" stroke-width="2"/>
+<text x="138.6" y="387.0" text-anchor="start" font-family="Arial" font-size="12" font-weight="bold" fill="#111827">RBR_ADAPT</text>
+<text x="510.0" y="626.0" text-anchor="middle" font-family="Arial" font-size="14" fill="#111827">Samples above high limit (%) — lower is better</text>
+<text x="25" y="315.0" transform="rotate(-90 25 315.0)" text-anchor="middle" font-family="Arial" font-size="14" fill="#111827">DMA throughput (MiB/s)</text>
+</svg>

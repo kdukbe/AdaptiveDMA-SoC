@@ -1,0 +1,4 @@
+run all
+SUMMARY: changes=6 levels=1111 errors=0
+PASS: Adaptive controller unit test complete
+$finish called at time : 1210 ns : File "sim/adaptive/tb_adaptive.sv" Line 259
