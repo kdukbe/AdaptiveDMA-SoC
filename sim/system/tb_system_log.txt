@@ -1,0 +1,48 @@
+run all
+TEST 1: one beat burst=16 outstanding=4 rbr=0 delta=0
+DONE: one beat bytes=8 AR/AW/B=1/1/1 max_pending=1/1
+TEST 2: burst setting burst=1 outstanding=4 rbr=0 delta=0
+DONE: burst setting bytes=512 AR/AW/B=64/64/64 max_pending=4/4
+TEST 3: burst setting burst=2 outstanding=4 rbr=0 delta=0
+DONE: burst setting bytes=512 AR/AW/B=32/32/32 max_pending=4/4
+TEST 4: burst setting burst=4 outstanding=4 rbr=0 delta=0
+DONE: burst setting bytes=512 AR/AW/B=16/16/16 max_pending=4/4
+TEST 5: burst setting burst=8 outstanding=4 rbr=0 delta=0
+DONE: burst setting bytes=512 AR/AW/B=8/8/8 max_pending=4/4
+TEST 6: burst setting burst=16 outstanding=4 rbr=0 delta=0
+DONE: burst setting bytes=512 AR/AW/B=4/4/4 max_pending=4/4
+TEST 7: outstanding 1 burst=16 outstanding=1 rbr=0 delta=0
+DONE: outstanding 1 bytes=2048 AR/AW/B=16/16/16 max_pending=1/1
+TEST 8: outstanding 2 burst=16 outstanding=2 rbr=0 delta=0
+DONE: outstanding 2 bytes=2048 AR/AW/B=16/16/16 max_pending=2/2
+TEST 9: 4KiB split burst=16 outstanding=4 rbr=0 delta=0
+DONE: 4KiB split bytes=4096 AR/AW/B=33/33/33 max_pending=4/4
+TEST 10: fixed RBR burst=16 outstanding=4 rbr=3 delta=0
+DONE: fixed RBR bytes=4096 AR/AW/B=33/32/32 max_pending=4/4
+TEST 11: fixed RBR burst=16 outstanding=4 rbr=3 delta=64
+DONE: fixed RBR bytes=4096 AR/AW/B=33/32/32 max_pending=4/4
+TEST 12: fixed RBR burst=16 outstanding=4 rbr=3 delta=128
+DONE: fixed RBR bytes=4096 AR/AW/B=33/32/32 max_pending=4/4
+TEST 13: fixed RBR burst=16 outstanding=4 rbr=3 delta=256
+DONE: fixed RBR bytes=4096 AR/AW/B=33/32/32 max_pending=4/4
+TEST 14: fixed RBR burst=16 outstanding=4 rbr=3 delta=768
+DONE: fixed RBR bytes=4096 AR/AW/B=33/32/32 max_pending=4/4
+TEST 15: pending and delayed B burst=16 outstanding=4 rbr=0 delta=0
+DONE: pending and delayed B bytes=4096 AR/AW/B=32/32/32 max_pending=4/4
+TEST 16: RBR with backpressure burst=16 outstanding=4 rbr=3 delta=256
+DONE: RBR with backpressure bytes=4096 AR/AW/B=33/33/33 max_pending=4/4
+TEST 17: disable during WAIT burst=16 outstanding=4 rbr=3 delta=768
+DONE: disable during WAIT bytes=4096 AR/AW/B=32/32/32 max_pending=4/4
+TEST 18: reset and restart burst=16 outstanding=4 rbr=0 delta=0
+DONE: reset and restart bytes=4096 AR/AW/B=32/32/32 max_pending=4/4
+TEST 19: adaptive feedback burst=16 outstanding=4 rbr=3 delta=0
+DONE: adaptive feedback bytes=65536 AR/AW/B=513/513/513 max_pending=4/4
+TEST 20: adaptive feedback burst=16 outstanding=4 rbr=3 delta=0
+DONE: adaptive feedback bytes=65536 AR/AW/B=513/513/513 max_pending=4/4
+TEST 21: adaptive feedback burst=16 outstanding=4 rbr=3 delta=0
+DONE: adaptive feedback bytes=65536 AR/AW/B=513/513/513 max_pending=4/4
+TEST 22: adaptive feedback burst=16 outstanding=4 rbr=3 delta=0
+DONE: adaptive feedback bytes=65536 AR/AW/B=513/513/513 max_pending=4/4
+SUMMARY: copies=22 levels=1111 AR/AW/R/W_stall=1111 errors=0
+PASS: Verilog system test complete
+$finish called at time : 1016740 ns : File "C:/Users/tmdqh/Desktop/DMA_project/sim/system/tb_system.v" Line 463
