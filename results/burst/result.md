@@ -63,3 +63,6 @@ RBR Adaptive는 DMA 처리량이 줄어드는 대신 CPU latency의 P95와 상�
 - `burst_trace.svg`: Burst Adaptive의 latency와 단계 변화
 - `tradeoff.svg`: 위반률과 DMA 처리량 비교
 - `analyze.py`: Sample 수, 집계값, 처리량과 단계 전환을 재계산하는 검증 코드
+
+Burst Adaptive용 RTL preset과 CPU0 프로그램은 이 저장소에 포함하지 않았습니다.
+`HW/rtl/adaptive.v`와 `SW/cpu0/main.c`는 최종 RBR Adaptive 버전입니다.
